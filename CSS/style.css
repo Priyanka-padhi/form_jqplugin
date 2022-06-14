@@ -1,0 +1,60 @@
+body{
+ border:250px solid aliceblue;
+ padding-left: 5%;
+ padding-right: 5%;
+ padding-top: 3%;
+ padding-bottom: 3%;
+ background-color:white;
+ background-repeat: no-repeat;
+ background-size:50%
+}
+
+.asterisk::after {
+  content: "*";
+  color: red;
+}
+
+label{
+  font-size:15px;
+}
+p{
+  font-size:15px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  font-size:80%;
+}
+td{
+  border: 1px solid #dddddd;;
+  text-align: center;
+  padding: 8px;
+}
+
+.submit_class{
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size : 16px;
+    background-color: green;
+}
+label.error {
+  color: red;
+  font-size: 15px;
+  display: block;
+  margin-top: 2px;
+}
+
+
+

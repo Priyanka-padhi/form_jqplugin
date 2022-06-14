@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Form</title>
+
+<link rel="stylesheet" href = "../CSS/style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+
+</head>
+
+<body>
+  <form  name = "CustomerDetails" id="form">
+<h2>Customer Details:</h2>
+
+
+  <div class="asterisk">Full Name</div><br>
+ 
+<div style = "float:left; padding-right: 50px">
+  <input type="text" size="30%" id="fname" name="fname" value=""><br>
+  <label for="fname">First Name</label><br>
+</div>
+  
+<div>
+<input type="text" size="30%" id="lname" name="lname" value=""><br>
+<label for="lname">Last Name</label> 
+</div><br>
+  
+<div class="asterisk">Address:</div><br>
+ 
+  
+<input type="text"  size="80%" id="streetadd1" name="streetadd1">
+<label for="streetadd1">Street Address</label><br>
+ 
+  
+<input type="text" size="80%" id="streetadd2" name="streetadd2">
+<label for="streetadd2">Street Address Line 2</label><br><br>
+  
+<div style = "float:left; padding-right: 50px">
+<input type="text" size="30%" id="city" name="city">
+  <p>City</p>
+</div>
+
+<input type="text" size="30%" id="state" name="state">
+  <p>State/Province</p><br>
+  
+ <input type="text" id="pin" name="pin"><br>
+  <p>Pincode/Zipcode</p>
+  
+<div class="asterisk">Phone Number</div><br>
+<label for="phone"></label>
+  <input type="tel" size="30%" id="phone" name="phone" placeholder="(000) 000-0000"><br><br>
+  
+<label for="email">E-mail</label><br><br>
+  <input type="email" size="30%" id="email" name="email" placeholder="ex:email@yahoo.com">
+    <p>example@example.com</p><br>
+
+  
+<div class="asterisk">How did you hear about us?</div><br>
+<select>
+  <option selected>Magazine</option>
+  <option>Social Media</option>
+  <option>Friends</option>
+  <option>Website</option>
+</select><br><br>
+
+<label for="Feedback about us" >Feedback about us:</label><br>
+<textarea cols="80" rows="6" id="feed" name="feed">
+</textarea><br><br>
+
+<label for="Suggestion if any for further improvement" >Suggestion if any for further improvement:</label><br>
+<textarea cols="80" rows="6" id="sugg" name="sugg">
+</textarea><br><br>
+
+
+
+<label for="us">Will you be willing to recommend us?</label>
+  <input type="checkbox" id="us" name="us" value="us"><br><br>
+ 
+<div>
+<label for="gender">Gender:</label>
+
+  <label for="male">Male<input type="radio" id="male" name="gender" value="male"></label>
+
+ <label for="female">Female<input type="radio" id="female" name="gender" value="female"></label>
+
+ <label for="others">Others<input type="radio" id="others" name="gender" value="others"></label>
+ 
+</div>
+<br><br>
+
+
+  
+<p3>Please give reference of any two people whom you feel:</p3>
+<br><br>
+
+<table>
+  <tr>
+    <th style="border-style: none"> </th>
+    <th style="background-color: #dddddd ">Full Name</th>
+    <th style="background-color: #dddddd">Address</th>
+    <th style="background-color: #dddddd">Contact Number</th>
+  </tr>
+  
+<tr>
+    <td style="background-color: #dddddd">1</td>
+    <td></td>
+    <td> </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="background-color: #dddddd">2</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table><br>
+
+<div class="submit_class">
+  <input type="submit" id="submit" value="Submit">
+</div>  
+  
+  </form>
+  <script src="../JQ_plugin/jq_plugin.js"></script> 
+</body>
+
+</html>
